@@ -1,0 +1,591 @@
+﻿body{
+    
+    background-image:linear-gradient(#c18518,#bda205,#8fb244,#518ba5);
+    
+}
+#body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    min-width: 80%;
+    background-image: radial-gradient(white,lightgray);
+    margin-bottom:100px;
+    max-width:100%;
+    padding-top:0%;
+    padding-bottom:10%;
+
+    margin-bottom:0%;
+  
+}
+.idM {
+    max-width: 1500px;
+    height: 175px;
+    background-color: black;
+    padding-right: 0;
+    border: 3px solid black;
+    padding-top: 0px;
+    margin-top: 0px;
+    background-image: url(cover/cover2.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.id {
+    max-width: 1500px;
+    height: 175px;
+    background-color: black;
+    padding-right: 0;
+    border: 3px solid black;
+    padding-top: 0px;
+    margin-top: 0px;
+    background-image: url(cover/cover1.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+    
+   
+
+#id {
+    max-width: 1500px;
+    height: 175px;
+    background-color: black;
+    padding-right: 0;
+    border: 3px solid black;
+    padding-top: 0px;
+    margin-top: 0px;
+    background-image: url(cover/cover.jpg);
+    background-position:right;
+    background-repeat:no-repeat;
+        
+}
+
+#ids {
+    max-width: 1500px;
+    height: 175px;
+    background-color: black;
+    padding-right: 0;
+    border: 3px solid black;
+    padding-top: 0px;
+    margin-top: 0px;
+    background-image: url(cover/bg1.jpg);
+    background-position:right;
+    background-repeat:no-repeat;
+   
+    
+    
+        
+}
+
+
+a {
+    display: block;
+    padding: 8px;
+    text-decoration:none;
+    margin:auto;
+}
+
+
+#spc {
+    position: relative;
+    left: 10px;
+    top: -170px;
+    margin-left: 0;
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 0;
+    
+  
+    
+  
+    
+
+}
+
+/* Add a black background color to the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: gray;
+    margin-top:-155px;
+    
+    
+}
+
+    /* Style the links inside the navigation bar */
+    .topnav a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+        /* Change the color of links on hover*/
+
+        .topnav a:hover {
+            background-color: #2196F3;
+            color: black;
+          
+        }
+
+        /* Style the "active" element to highlight the current page */
+        .topnav a.active {
+            background-color: #2196F3;
+            color: white;
+            display: block;
+            padding: 14px 16px;
+            
+            text-decoration: none;
+            font-size: 17px;
+            
+
+
+        }
+
+    /* Style the search box inside the navigation bar */
+    .topnav input[type=text] {
+        float: right;
+        padding: 6px;
+        border: none;
+        margin-top: 8px;
+        margin-right: 16px;
+        font-size: 17px;
+    }
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+    .topnav a, .topnav input[type=text] {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+
+    
+}
+
+/* The subnavigation menu */
+.subnav {
+  float: left;
+  overflow: hidden;
+  margin-bottom:-10px;
+ 
+}
+
+/* Subnav button */
+.subnav .subnavbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  /*padding: 14px 16px;*/
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Add a red background color to navigation links on hover */
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: #2196F3;
+}
+
+/* Style the subnav content - positioned absolute */
+.subnav-content {
+    
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color:#2196F3;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Style the subnav links */
+    .subnav-content a {
+        float: left;
+        color: white;
+        text-decoration: none;
+        
+    }
+
+/* Add a grey background color on hover */
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+  
+}
+
+/* When you move the mouse over the subnav container, open the subnav content */
+.subnav:hover .subnav-content {
+  display:block;
+  max-width:350px;
+  margin-left:135px;
+}
+.img {
+    width: 220px;
+    height: 300px;
+    outline: outset;
+    outline-color: black;
+    margin-right: 35px;
+    margin-left:3px;
+ 
+
+}
+
+
+.font {
+    background-color: darkgrey;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    text-decoration:none;
+    color:black;
+}
+.font:hover{
+    background-color:cadetblue;
+}
+.font:active{
+ background-color:darkblue;
+}
+.latest{
+    
+    margin-top:75px;
+    margin-bottom:-50px;
+    
+
+}
+.word{
+    color:black;
+    
+    margin-right:45px;
+    margin-left:50px;
+    
+    text-decoration:solid;
+  
+    padding-right:10px;
+    padding-left:10px;
+    padding-bottom:5px;
+
+}
+.rategreen {
+    background-color: green;
+    color: white;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+   text-align:center;
+   position:relative;
+   left:-3%;
+ 
+   
+    
+}
+
+
+.rate-orange {
+    background-color: orange;
+    color: white;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+    position: relative;
+    left: -3%;
+}
+.rate-red {
+    background-color: red;
+    color: white;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+    position: relative;
+    left: -3%;
+}
+
+.tr{
+    position:relative;
+    left:-3%;
+}
+
+
+
+
+.footer-main-div {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 20px 0px;
+    background-color: black;
+    width: 100%;
+    box-shadow: 0 50vh 0 50vh black;
+    display: flex;
+}
+
+.footer-social-icons {
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .footer-social-icons h3 {
+        color: white;
+        padding-left: 48%;
+        font-family: "Times New Roman";
+        letter-spacing: 2px;
+    }
+
+    .footer-social-icons ul {
+        list-style-type: none;
+        margin-top: 0px;
+        padding: 0px 5px 0px 0px;
+        text-align: center;
+        float: right;
+    }
+
+        .footer-social-icons ul li {
+            display: inline-block;
+            width: 35px;
+            height: 35px;
+            margin: 0px 10px;
+            border-radius: 100%;
+            background-color: aqua;
+        }
+
+            .footer-social-icons ul li a {
+                color: black;
+                font-size: 20px;
+                display: block;
+            }
+
+                .footer-social-icons ul li a i {
+                    line-height: 3px;
+                    margin: auto;
+                }
+
+                .footer-social-icons ul li a:hover {
+                    margin: auto;
+                    position: absolute;
+                    width: 21px;
+                    height: 21px;
+                    border-radius: 100%;
+                    background-color: deepskyblue;
+                }
+
+.footer-menu-one {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+    .footer-menu-one ul {
+        margin: 0px;
+        padding-left: 0px;
+        text-align: left;
+        list-style-type: none;
+    }
+
+        .footer-menu-one ul li {
+            display: inline;
+        }
+
+            .footer-menu-one ul li a {
+                letter-spacing: 2px;
+                font-family: sans-serif;
+                color: white;
+                font-size: 14px;
+                font-weight: bold;
+                text-shadow: 0 0 2px blue;
+                margin: 0px;
+                width: 18%;
+            }
+
+                .footer-menu-one ul li a:hover {
+                    letter-spacing: 2px;
+                    font-family: sans-serif;
+                    color: skyblue;
+                    font-size: 14px;
+                    font-weight: bold;
+                    text-shadow: 0 0 2px blue;
+                    margin: 0px;
+                }
+
+
+
+
+.footer-menu-two {
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 10%;
+    width: 15%;
+    color: white;
+}
+
+    .footer-menu-two ul {
+        margin-left: 0;
+        padding-left: 0;
+        text-align: left;
+        list-style-type: none;
+    }
+
+        .footer-menu-two ul li {
+            display: inline;
+        }
+
+.footer-menu-one h3 {
+    color: mediumaquamarine;
+    padding-left: 1%;
+    font-family: "Times New Roman";
+    letter-spacing: 2px;
+}
+
+.footer-menu-two h3 {
+    color: mediumaquamarine;
+    font-family: "Times New Roman";
+    letter-spacing: 2px;
+}
+
+
+
+
+footer{
+    margin-top:0px;
+    padding-bottom:20px;
+}
+
+.column {
+    float: left;
+    width: 32%;
+    padding: 5px;;
+    display:inline;
+    text-align:center;
+    
+    margin-right:-100px;
+    min-width:300px;
+    
+    
+   
+}
+.columnV {
+    float: left;
+    width: 32%;
+    padding: 5px;
+    min-width: 300px;
+    display: inline;
+}
+
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    
+    
+    
+}
+
+
+
+.video {
+    width :300px;
+    
+    background: black;
+    padding: 2px;
+    z-index: 1;
+}
+.video::before{
+  display:grid;
+
+
+}
+.video:hover{
+    display:block;
+}
+
+/*
+.img {
+    position: absolute;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+ {
+    display:inline-block;
+    position:relative;
+    margin:0 10px 30px;
+    clear:both;
+    text-align:center;
+    direction:ltr;
+   */
+.Hfont {
+    background-color: cadetblue;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #fff;
+    line-height: 150px;
+    width: 150px;
+    text-align: center;
+    margin-left: 60px;
+    -webkit-transition: width 1s, line-height 1s; /* Safari */
+    transition: width 1s, line-height 1s;
+    margin-top:-10px;
+    margin-bottom:1px;
+    
+    
+
+    
+   
+}
+    .Hfont:hover {
+        width:170px;
+        line-height:170px;
+        
+    }
+    .f{
+        display:inline-block;
+        margin-bottom:-2%;
+       
+       
+    }
+
+.f1 ul{
+    
+    list-style-type: none;
+    
+}
+
+/* Style the list */
+ul.breadcrumb {
+    margin-top: 55px;
+    padding: 10px 16px;
+    list-style-type: none;
+    background-color:whitesmoke;
+    
+    
+}
+
+    /* Display list items side by side */
+    ul.breadcrumb li {
+        display: inline-block;
+        font-size: 18px;
+        list-style-type:none;
+    }
+
+
+#content{
+    
+    margin: 5% auto 0 auto; 
+    padding: 2%;
+    text-align: left;
+    width: 30%;
+
+}
+
+

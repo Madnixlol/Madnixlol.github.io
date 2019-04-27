@@ -1,0 +1,134 @@
+    <!DOCTYPE html>
+
+    <html lang="en">
+    <head>
+        <link rel="stylesheet" href="webcss.css">        
+        <link rel="stylesheet" href="registration.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    
+        
+        
+        <meta charset="utf-8" />
+        <title>ColorFeed - Sign up</title>
+    </head>
+
+    <body>
+        <div id="body">
+            <div id="id">
+
+            </div>
+
+            <a id="spc" href="home.html"> <img src="cover/logo.png" alt="logo" width="400" height="150" /></a>
+
+            <div class="topnav">
+                <a class="active" href="home.html">Home</a>
+                <div class="subnav">
+                    <button class="subnavbtn"> <a href="movies.html"> Movie</a></button>
+                    <div class="subnav-content">
+                        <a href="action.html">Action</a>
+                        <a href="horror.html">Horror</a>
+                        <a href="comedy.html">Comedy</a>
+                        <a href="romance.html">Romance</a>
+                    </div>
+                </div>
+                <div class="subnav">
+                    <button class="subnavbtn">  <a href="tvshows.html">TV Shows</a> </button>
+                    <div class="subnav-content">
+                        <a href="#anime">Anime</a>
+                        <a href="#series">Series</a>
+
+                    </div>
+                </div>
+                <a href="News.html">News</a>
+                <input type="text" placeholder="Search..">
+            </div>
+        
+             <!-- Registration form -->
+        
+    
+            <div class="reg-page"> 
+                <div class="form">
+                <form class="reg-form">
+                    <p class = "form-title">SIGN UP!</p>
+                    <input type="text" placeholder="First Name">
+                    <input type="text" placeholder="Last Name">
+                    <input type="text" placeholder="Username">
+                    <input type="email" placeholder="Email">
+                    <input type="password" placeholder="Password">
+                    <input type="password" placeholder="Confirm Password">
+                    <input type="date"> 
+                    <button>Sign Up!</button>
+                    <p class="switchtabs">Already Registered?<a href="#" id="login">Login!</a></p>
+                    </form>
+                
+                <form class="login-form">
+                    <p class = "form-title">LOGIN</p>
+                    <input type="text" placeholder="Username">
+                    <input type="password" placeholder="Password">
+                    <button>Login</button>
+                    <p class="switchtabs">Not Registered?<a href="#" id="signup">Sign up now!</a></p>
+
+                    <div class="signup"></div>
+                    
+                    </form>
+                
+                </div>
+                    </div>  
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script>
+            $('.switchtabs a').click(function(){
+    $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+    });
+             </script>
+            
+            
+        </div>    
+            
+            
+
+        <footer>
+            <div class="footer-main-div">
+
+                <!-- Footer Navigation -->
+                <div class="footer-menu-one">
+                    <h3>CATEGORIES: </h3>
+                    <ul>
+                        <li><a href="home.html">HOME</a></li>
+                        <li><a href="movies.html">MOVIES</a></li>
+                        <li><a href="tvshows">TV SHOWS</a></li>
+                        <li><a href="news.html">NEWS</a></li>
+                    </ul>
+                </div>
+                <!-- Footer Contact -->
+                <div class="footer-menu-two">
+                    <h3>CONTACT:</h3>
+                    <ul>
+                        <li>Contact@colorfeed.com</li>
+                        <li>+20 1234 5678</li>
+                        <li>Copyright &copy; ColorFeed 2019, All Rights Reserved.</li>
+                    </ul>
+                </div>
+                <!-- Footer Social-->
+                <div class="footer-social-icons">
+                    <h3>Our Social Accounts:</h3>
+                    <ul>
+                        <li><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.yotube.com" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                        <li><a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://www.plus.google.com" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </footer>
+
+
+
+    </body>
+    <!-- Site footer -->
+
+</html>
+   
+    
